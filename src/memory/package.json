@@ -1,16 +1,10 @@
 {
-  "name": "@modelcontextprotocol/server-memory",
-  "version": "0.6.3",
-  "description": "MCP server for enabling memory for Claude through a knowledge graph",
+  "name": "@openclaw/memory-server",
+  "version": "1.0.0",
+  "description": "OpenClaw mesh-aware MCP memory server with temporal observations and enhanced search",
   "license": "SEE LICENSE IN LICENSE",
-  "mcpName": "io.github.modelcontextprotocol/server-memory",
-  "author": "Model Context Protocol a Series of LF Projects, LLC.",
-  "homepage": "https://modelcontextprotocol.io",
-  "bugs": "https://github.com/modelcontextprotocol/servers/issues",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/modelcontextprotocol/servers.git"
-  },
+  "mcpName": "openclaw/memory-server",
+  "author": "OpenClaw",
   "type": "module",
   "bin": {
     "mcp-server-memory": "dist/index.js"
